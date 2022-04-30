@@ -13,9 +13,6 @@ body {
   color: #ffffff;
 
   text-align: center;
-  justify-content: center;
-
-  width: 1440;
 }
 
 h1 {
@@ -37,12 +34,11 @@ body > div {
 
 .left {
   margin: 155px;
+  text-align: center;
 }
 
 .border {
   border: 5px solid #97f5bb;
-  width: 489px;
-  height: 489px;
   padding: 37px 37px 37px 37px;
   border-radius: 40px;
 }
@@ -52,10 +48,11 @@ body > div {
 }
 
 p {
-  position: absolute;
+  /* position: absolute; */
   font-family: "Orbitron", sans-serif;
   font-size: 37px;
-  margin: -29px 185px 0px 185px;
+  text-align: center;
+  margin: -29px 185px 0px 180px;
   padding: 0px 10px 0px 10px;
   background-color: #2c2c2c;
 }
@@ -70,9 +67,9 @@ button {
   background-color: #97f5bb;
   padding: 30px;
   border-radius: 20px;
-  margin: 25px;
-  margin-bottom: 0px;
+  margin: 12.5px 12.5px 0px 12.5px;
   box-shadow: none;
+  border: none;
 }
 
 #right button {
@@ -83,12 +80,11 @@ button {
   display: block;
   color: #000000;
   background-color: #ffffff;
-  border: 1px solid #000000;
   border-radius: 10px;
 
-  padding: 10px 42px 10px 41px;
+  padding: 10px 41px 10px 41px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   margin: auto;
-  margin-top: 82px;
+  margin-top: 0px;
 }

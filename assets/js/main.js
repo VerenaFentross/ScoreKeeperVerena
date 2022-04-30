@@ -1,42 +1,46 @@
 console.log("Ulabula");
 
-// definiere variabeln für die Punkteanzeige
+// deklariere die Variabeln für die Punkteanzeige
 
 let counterhome = document.querySelector("#pointshome");
 
 let counteraway = document.querySelector("#pointsaway");
 
-let scoreHome = 0;
-let scoreAway = 0;
+//Ich lege den Wert 0 als Ausgangswert der Anzeige fest.
+
+let Home = 0;
+let Away = 0;
+
+// Ich ordne den Buttons Funktionen zu, die beim Klick ausgeführt werden sollen, und binde sie über das "onklick"-tag im html beim jeweiligen Button ein.
 
 function plus1() {
-  scoreHome += 1;
-  counterhome.innerHTML = scoreHome;
+  Home += 1;
+  counterhome.innerHTML = Home;
 }
 
 function plus2() {
-  scoreHome += 2;
-  counterhome.innerHTML = scoreHome;
+  Home += 2;
+  counterhome.innerHTML = Home;
 }
 function plus3() {
-  scoreHome += 3;
-  counterhome.innerHTML = scoreHome;
+  Home += 3;
+  counterhome.innerHTML = Home;
 }
 
 // ====BUTTONSAWAY====
 
 function plus1a() {
-  scoreAway += 1;
-  counteraway.innerHTML = scoreAway;
+  Away += 1;
+  counteraway.innerHTML = Away;
 }
 
 function plus2a() {
-  scoreAway += 2;
-  counteraway.innerHTML = scoreAway;
+  Away += 2;
+  counteraway.innerHTML = Away;
 }
 function plus3a() {
-  scoreAway += 3;
-  counteraway.innerHTML = scoreAway;
+  Away += 3;
+  counteraway.innerHTML = Away;
 }
 
 // ====RESET====
@@ -45,3 +49,5 @@ function resetpoints() {
   counterhome.innerHTML = "0";
   counteraway.innerHTML = "0";
 }
+
+//Ende des Skripts
