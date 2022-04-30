@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Orbitron:wght@400;700&display=swap");
+
+/* font-family: 'Lato', sans-serif:wght@100;400;
+font-family: 'Orbitron', sans-serif; */
+
+/* Farben: #2C2C2C, #FDF860, #000000, #FFFFFF, #97F5BB, #525DF4 */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2c2c2c;
+  color: #ffffff;
+
+  text-align: center;
+  justify-content: center;
+
+  width: 1440;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 150px;
+  font-weight: 100;
+  line-height: 188px;
+  color: #fdf860;
+  background-color: #000000;
+  border-radius: 40px;
+  padding: 114px;
+  margin: auto;
+}
+
+body > div {
+  display: inline-block;
+  text-align: center;
+}
+
+.left {
+  margin: 155px;
+}
+
+.border {
+  border: 5px solid #97f5bb;
+  width: 489px;
+  height: 489px;
+  padding: 37px 37px 37px 37px;
+  border-radius: 40px;
+}
+
+#borderlavender {
+  border-color: #525df4;
+}
+
+p {
+  position: absolute;
+  font-family: "Orbitron", sans-serif;
+  font-size: 37px;
+  margin: -29px 185px 0px 185px;
+  padding: 0px 10px 0px 10px;
+  background-color: #2c2c2c;
+}
+.addpoints {
+  margin-top: 120px;
+}
+
+button {
+  font-family: "Lato", sans-serif;
+  font-size: 37px;
+  color: #ffffff;
+  background-color: #97f5bb;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 25px;
+  margin-bottom: 0px;
+  box-shadow: none;
+}
+
+#right button {
+  background-color: #525df4;
+}
+
+#reset {
+  display: block;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+
+  padding: 10px 42px 10px 41px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 82px;
+}

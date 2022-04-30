@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===========HOME========== -->
+
+    <div class="left">
+      <div class="border" id="bordergreeen">
+        <h1 id="pointshome">0</h1>
+      </div>
+      <p>Home</p>
+      <div class="addpoints">
+        <button class="add1" onclick="plus1()">+1</button>
+        <button class="add2" onclick="plus2()">+2</button>
+        <button class="add3" onclick="plus3()">+3</button>
+      </div>
+    </div>
+
+    <!-- ===========AWAY========== -->
+
+    <div id="right">
+      <div class="border" id="borderlavender">
+        <h1 id="pointsaway">0</h1>
+      </div>
+      <p>Away</p>
+      <div class="addpoints">
+        <button class="add1a" onclick="plus1a()">+1</button>
+        <button class="add2a" onclick="plus2a()">+2</button>
+        <button class="add3a" onclick="plus3a()">+3</button>
+      </div>
+    </div>
+
+    <!-- ==========RESET========== -->
+
+    <button id="reset" onclick="resetpoints()">Reset</button>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
